@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Documentación técnica HTML</title>
+</head>
+
+<body>
+    <div class="container">
+
+    <!-- barra de navegación nav-->
+    <nav id="navbar">
+        <header>HTML Documentation</header>
+        <ul>
+        <li><a class="nav-link" href="#What_is_HTML" >What is HTML</a></li>
+        <li><a class="nav-link" href="#Basic_HTML_Structure" class="nav-link">Basic HTML Structure</a></li>
+        <li><a class="nav-link" href="#HTML_Headings" class="nav-link">HTML Headings</a></li>
+        <li><a class="nav-link" href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a></li>
+        <li><a class="nav-link" href="#Images_in_HTML" class="nav-link">Images in HTML</a></li>
+        <li><a class="nav-link" href="#HTML_Forms" class="nav-link">HTML Forms</a></li>
+        <li><a class="nav-link" href="#HTML_Tables" class="nav-link">HTML Tables</a></li>
+        </ul>
+    </nav>
+
+    <!-- Abarca el contenido principal de la página (documentación técnica HTML) -->
+    <main id="main-doc">
+
+        <!-- Varios elementos section (mínimo 5) con ID que corresponde al texto del header -->
+        <!-- Debe haber al menos 10 elementos p en total dentro de .main-section -->
+        <!-- Debe haber al menos 5 elementos code en total dentro de .main-section -->
+        <!-- Debe haber al menos 5 items li en total dentro de .main-section -->
+        <!-- -->
+
+
+        <section class="main-section" id="What_is_HTML">
+            <header>What is HTML</header>
+            
+            <article>
+                <p>
+                    HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para crear páginas
+                    web. Es
+                    un lenguaje de marcado que
+                    permite definir la estructura y el contenido de una página web, así como su presentación visual. En
+                    esta
+                    sección, presentaremos una
+                    breve introducción a HTML y sus características básicas.
+                </p>
+                <p>
+                    HTML fue creado en 1990 por Tim Berners-Lee, el padre de la World Wide Web. Desde entonces, ha
+                    evolucionado a través de varias
+                    versiones, con la última versión siendo HTML5.
+                </p>
+                <p>
+                    HTML no es un lenguaje de programación, sino un lenguaje de marcado que se utiliza para estructurar
+                    el
+                    contenido de una página web.
+                    Los elementos HTML se utilizan para definir diferentes partes de una página web, como encabezados,
+                    párrafos, listas, imágenes y enlaces.
+                    Los navegadores web interpretan el código HTML y lo muestran en forma de página web.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Basic_HTML_Structure">
+            <header>Basic HTML Structure</header>
+            <article>
+                <ul>
+                    <li>Todo documento HTML debe comenzar con la etiqueta <code>&lt;!DOCTYPE html&gt;</code> seguida de
+                        la
+                        etiqueta <code> &lt;html&gt;</code>.</li>
+                    <li>El contenido de la página web se encuentra entre las etiquetas <code>&lt;head&gt;</code> y
+                        <code>&lt;body&gt;</code>.
+                    </li>
+                    <li>La etiqueta <code>&lt;head&gt;</code> contiene información sobre la página web, como el título y
+                        los
+                        metadatos.</li>
+                    <li>La etiqueta <code>&lt;body&gt;</code> contiene el contenido visible de la página web.</li>
+                </ul>
+            </article>
+
+        </section>
+        <section class="main-section" id="HTML_Headings">
+            <header>HTML Headings</header>
+            <article>
+                <p>
+                    El uso de encabezados y párrafos, son dos elementos esenciales para organizar y dar formato al texto
+                    en
+                    una página web.
+                </p>
+                <p>
+                    Los encabezados, también conocidos como headings, se utilizan para crear títulos y subtítulos en una
+                    página web. Permiten organizar
+                    la información de forma jerárquica y facilitar la lectura del contenido.
+                </p>
+                <p>
+                    Existen seis niveles de encabezados en HTML, del 1 al 6. Cada nivel se representa con una etiqueta
+                    diferente. El 1 es el encabezado
+                    más grande y el 6 el más pequeño.
+                </p>
+                <p class="resaltado">Ejemplo de código:</p>
+                <code>
+                    &lt;h1&gt;Título principal&lt;/h1&gt;<br>
+                    &lt;h2&gt;Subtítulo 1&lt;/h2&gt;<br>
+                    &lt;h3&gt;Subtítulo 2&lt;/h3&gt;<br>
+                    &lt;h4&gt;Subtítulo 3&lt;/h4&gt;<br>
+                    &lt;h5&gt;Subtítulo 4&lt;/h5&gt;<br>
+                    &lt;h6&gt;Subtítulo 5&lt;/h6&gt;<br>
+                </code>
+                <p class="resaltado">Consejos para usar encabezados:</p>
+                <ul>
+                    <li>Utiliza un encabezado de nivel superior para el título principal de la página.</li>
+                    <li>Usa encabezados de niveles inferiores para los subtítulos y las secciones de la página.</li>
+                    <li>Sigue una lógica jerárquica al usar los encabezados.</li>
+                    <li>No uses demasiados encabezados del mismo nivel.</li>
+                </ul>
+            </article>
+
+        </section>
+        <section class="main-section" id="HTML_Paragraphs">
+            <header>HTML Paragraphs</header>
+            <article>
+                <p>Los párrafos son bloques de texto que se utilizan para presentar la información principal
+                    en una página web.
+                </p>
+                <p class="resaltado">Ejemplo de código</p>
+                <code>
+                    &lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+                </code>
+                <p class="resaltado">Consejos para usar párrafos:</p>
+                <ul>
+                    <li>Comienza cada párrafo con una oración inicial que resuma el tema del párrafo.</li>
+                    <li>Mantén los párrafos concisos y fáciles de leer.</li>
+                    <li>Utiliza sangrías para separar los párrafos.</li>
+                    <li>No uses demasiados saltos de línea dentro de un párrafo.</li>
+                </ul>
+
+            </article>
+        </section>
+        <section class="main-section" id="Images_in_HTML">
+            <header>Images in HTML</header>
+            <article>
+                <p>HTML proporciona varias formas de trabajar con imágenes en una página web. Las imágenes
+                    pueden mejorar la apariencia y la experiencia del usuario en un sitio web, y es importante
+                    entender cómo insertar y ajustar imágenes correctamente en HTML.
+                </p>
+                <p>La forma más común de insertar una imagen en HTML es utilizando el elemento <code>&lt;img&gt;</code>.
+                    Este elemento no requiere una etiqueta de cierre y tiene varios atributos clave:</p>
+                <ul>
+                    <li><code>src</code>: especifica la URL o la ruta de la imagen</li>
+                    <li><code>alt</code>: proporciona un texto alternativo para la imagen, que se muestra si la imagen
+                        no se carga correctamente</li>
+                    <li><code>width</code> y <code>height</code>: establecen el ancho y la altura de la imagen en
+                        píxeles</li>
+                </ul>
+                <p>A continuación, se muestra un ejemplo de cómo utilizar el elemento <code>&lt;img&gt;</code>:</p>
+                <code>&lt;img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200"&gt;</code>
+
+                <p class="resaltado">Formatos de Imagen</p>
+                <p>HTML admite varios formatos de imagen, incluyendo JPEG, PNG y GIF. La elección del formato depende
+                    del tipo de imagen y de los
+                    requisitos de calidad y compresión. Algunos puntos clave sobre los formatos de imagen son:</p>
+                <ul>
+                    <li>JPEG (<code>.jpg</code>) es adecuado para fotografías y ofrece una buena calidad de imagen con
+                        una compresión efectiva</li>
+                    <li>PNG (<code>.png</code>) es ideal para imágenes con áreas transparentes y preserva la calidad sin
+                        pérdidas, pero puede generar archivos más grandes</li>
+                    <li>GIF (<code>.gif</code>) es adecuado para imágenes animadas y utiliza una paleta de colores
+                        limitada</li>
+                </ul>
+                <p class="resaltado">Atributo CSS <code>background-image</code></p>
+                <p>Además del elemento <code>&lt;img&gt;</code>, también puedes utilizar el atributo CSS
+                    <code>background-image</code> para mostrar una imagen de fondo
+                    en un elemento HTML. Esto te permite tener más control sobre la posición y el tamaño de la imagen de
+                    fondo. A continuación, se muestra un ejemplo:
+                </p>
+                <code>&lt;div style="background-image: url(imagen.jpg); width: 500px; height: 300px;"&gt;&lt;/div&gt;</code>
+                <p class="resaltado">Conclusiones</p>
+                <p>Las imágenes desempeñan un papel importante en el diseño y la experiencia del usuario en una página
+                    web. Con HTML, puedes insertar imágenes utilizando
+                    el elemento <code>&lt;img&gt;</code> y personalizar su apariencia con CSS. Recuerda optimizar tus
+                    imágenes para un rendimiento web óptimo y proporcionar
+                    siempre un texto alternativo adecuado para mejorar la accesibilidad.</p>
+
+
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Forms">
+            <header>HTML Forms</header>
+            <article>
+                <p class="resaltado">Introducción</p>
+                <p>Los formularios son una parte fundamental de la web, ya que permiten a los usuarios interactuar con
+                    los sitios web enviando datos al servidor. En HTML,
+                    los formularios se crean utilizando elementos como <code>&lt;form&gt;</code>,
+                    <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, entre otros.
+                </p>
+                <p class="resaltado">Estructura básica de un formulario</p>
+                <p>Un formulario en HTML se estructura dentro de un elemento <code>&lt;form&gt;</code>, que puede
+                    contener elementos de entrada de datos como campos de texto,
+                    casillas de verificación, botones de opción y botones de envío. Cada campo de entrada se define con
+                    el elemento <code>&lt;input&gt;</code> o <code>&lt;textarea&gt;</code>.
+                </p>
+                <p class="resaltado">Atributos comunes de los elementos de formulario</p>
+                <ul>
+                    <li><code>name</code>: Nombre del campo que se enviará al servidor.</li>
+                    <li><code>id</code>: Identificador único del campo.</li>
+                    <li><code>type</code>: Tipo de campo de entrada (texto, email, contraseña, etc.).</li>
+                    <li><code>required</code>: Indica que un campo es obligatorio.</li>
+                    <li><code>placeholder</code>: Texto de ejemplo que se muestra en el campo antes de que se introduzca
+                        información.</li>
+                    <li><code>value</code>: Valor predeterminado del campo.</li>
+                </ul>
+                <p class="resaltado">Enviando datos al servidor</p>
+                <p>Cuando un usuario completa un formulario y hace clic en el botón de envío
+                    (<code>&lt;input type="submit"&gt;</code>), los datos se envían al servidor especificado en el
+                    atributo <code>action</code> del elemento <code>&lt;form&gt;</code>. La solicitud HTTP resultante
+                    puede ser manejada por un servidor web para procesar la información recibida.
+                </p>
+                <p class="resaltado">Conclusiones</p>
+                <p>Los formularios en HTML son una herramienta poderosa para interactuar con los usuarios y recopilar
+                    información. Es importante diseñar formularios accesibles y fáciles de usar
+                    para mejorar la experiencia del usuario en la web.</p>
+
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Tables">
+            <header>HTML Tables</header>
+            <article>
+                <p class="resaltado">Introducción</p>
+                <p>Las tablas en HTML permiten organizar datos de manera estructurada en filas y columnas. Son útiles
+                    para mostrar información de forma ordenada y facilitar su lectura.</p>
+                <p class="resaltado">Elementos de una tabla</p>
+                <p>Una tabla en HTML se crea utilizando los siguientes elementos:</p>
+                <ul>
+                    <li><code>&lt;table&gt;</code>: Elemento contenedor de la tabla.</li>
+                    <li><code>&lt;tr&gt;</code>: Define una fila de la tabla.</li>
+                    <li><code>&lt;th&gt;</code>: Define una celda de encabezado.</li>
+                    <li><code>&lt;td&gt;</code>: Define una celda de datos.</li>
+                </ul>
+                <p class="resaltado">Ejemplo de una tabla simple en HTML</p>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                    </tr>
+                    <tr>
+                        <td>María</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>25</td>
+                    </tr>
+                </table>
+                <p class="resaltado">Estilos de tabla</p>
+                <p>Puedes aplicar estilos CSS a las tablas para personalizar su apariencia, como colores de fondo,
+                    bordes y espaciado entre celdas.</p>
+                <p class="resaltado"><Conclusiones</p>
+                <p>Las tablas en HTML son una herramienta útil para mostrar datos de forma organizada y estructurada. Es
+                    importante utilizarlas de manera adecuada para mejorar la presentación de la información en una
+                    página web.
+                </p>
+
+            </article>
+        </section>
+
+    </main>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Course Registration</title>
+</head>
+<body>
+    <h1 id="title">Online Course Registration</h1>
+    <p id="description">Complete this form to enroll in our online courses</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name" id="name-label">Name <input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+            <label for="email" id="email-label">Email <input type="email" name="email" id="email" required placeholder="Enter your email"></label>
+            <label for="age" id="number-label">Age (Optional) <input type="number" name="age" id="number" min="13" max="120" placeholder="age"></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select name="dropdown" id="dropdown">
+                <option value="">-- Please select a course --</option>
+                <option value="">Programming Course</option>
+                <option value="">Graphic Design Course</option>
+                <option value="">Digital Marketing Course</option>
+                <option value="">English Course</option>
+                <option value="">Mathematics Course</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Experience Level</legend>
+            <label for="level"> <input type="radio" name="level" id="level" value= "beginner"> Beginner</label>
+            <label for="level"> <input type="radio" name="level" id="level" value="intermediate"> Intermediate</label>
+            <label for="level"> <input type="radio" name="level" id="level" value="advanced"> Advanced</label>
+        </fieldset>
+        <!--
+        <fieldset>
+            <label for="drop2" id="drop2">What is your favorite feature of freeCodeCamp?</label>
+            <select name="drop2" id="drop2">    
+                <option value="">Select an option</option>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+                <option value="">Projects</option>
+                <option value="">Comunity</option>
+                <option value="">Open Source</option>
+            </select>
+        </fieldset>
+        -->
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="videos"> Learning Videos</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="articles"> Articles and Readings</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="books"> Books and eBooks</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="webinars"> Webinars</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="exercises"> Practical Exercises</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="tutorials">Live Tutorials</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="forums">Discussion Forums</label>
+            <label for=""><input type="checkbox" name="" id="" class="inline" value="projects">Real Projects</label>
+        </fieldset>
+         <fieldset>
+            <legend>Additional Comments</legend>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Let us know your expectations or any additional comments."></textarea>
+         </fieldset>
+         <input type="submit" value="Register" id="submit">
+        
+    </form>
+    
+</body>
+</html>
