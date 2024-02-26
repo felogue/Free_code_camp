@@ -1,3 +1,11 @@
 body{
-    background-color: aquamarine;
+    background-color: #d4cdcd;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
 }
