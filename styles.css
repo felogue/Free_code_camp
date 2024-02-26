@@ -1,6 +1,9 @@
 body{
     background-color: #e9e1e1;
 }
+ul{
+    list-style: circle;
+}
 
 ul li a{
     text-decoration: none;
