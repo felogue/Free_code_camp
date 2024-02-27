@@ -1,72 +1,60 @@
-body {
-    background-color: #333;
-    color: #f7f7f7;
-    font-family: Arial, Helvetica, sans-serif;    
-}
+<!DOCTYPE html>
+<html lang="en">
 
-form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #444;    
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Albert Einstein</title>
+</head>
 
-h1, p {
-    text-align: center;
-}
+<body>
+    <main id="main">
+        <header>
+            <h1 id="title">Albert Einstein</h1>
+            <p>the genius of the 20th century</p>
 
-label {
-    display: block;
-}
+            <figure id="img-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Albert_Einstein_on_the_bord_of_ocean_liner_emigrates_to_America.jpg"
+                    alt="Albert Einstein" id="image">
+                <figcaption id="img-caption">Albert Einstein, center of image, a theoretical physicist who
+                    revolutionized our understanding of the universe with his theory of relativity</figcaption>
+            </figure>
+        </header>
+        <section id="tribute-info">
+            <h2>Here's a time line of Dr.Borlaug's life:</h2>
+            <ul>
+                <li><strong>Birth:</strong>March 14, 1879, in Ulm, in the Kingdom of Württemberg of the German Empire.
+                </li>
+                <li><strong>1895:</strong>At age 16, Einstein moved to Switzerland, where he would later study at the
+                    Federal Polytechnic School in Zurich.</li>
+                <li><strong>1900:</strong>He graduates from the Polytechnic School and begins to work at the Bern Patent
+                    Office.</li>
+                <li><strong>1905: </strong>He publishes four seminal articles in the journal Annalen der Physik,
+                    including his theories on the photoelectric effect (for which he would win the Nobel Prize) and the
+                    special theory of relativity. This year is known as your "Annus Mirabilis" or miraculous year.</li>
+                <li><strong>1915:</strong>He presents the general theory of relativity, which provides a new description
+                    of gravity.</li>
+                <li><strong>1921:</strong>Receives the Nobel Prize in Physics for his explanation of the photoelectric
+                    effect, which confirmed quantum theory and transformed the understanding of physics.</li>
+                <li><strong>1933:</strong>Due to the rise of the Nazi regime in Germany, Einstein emigrates to the
+                    United States, where he becomes a professor at the Institute for Advanced Studies in Princeton, New
+                    Jersey.</li>
+                <li><strong>1940</strong>He becomes a US citizen, also maintaining his Swiss citizenship.</li>
+                <li><strong>1945:</strong>After the end of World War II and the use of the atomic bomb, Einstein becomes
+                    an advocate for nuclear arms control and a peaceful world.</li>
+                <li><strong>1955: </strong>He died on April 18 in Princeton, New Jersey, United States.
+                    Einstein is remembered not only for his contributions to physics but also for his activism against
+                    racism, his humanitarian philosophy, and his influence on the philosophy of science. His legacy
+                    remains alive and continues to inspire scientists and thinkers around the world.</li>
+            </ul>
+            <h3>You can expand the information on Wikipedia <a id="tribute-link" href="https://es.wikipedia.org/wiki/Albert_Einstein"
+                    target="_blank">Wikipedia</a></h3>
 
-fieldset {
-    border: none; /* Elimina el borde de fieldset */
-    border-bottom: 3px solid #666;
-    margin-bottom: 15px;
-    padding: 15px;
-}
+        </section>
 
-legend {
-    color: #fff;
-    background-color: #666;
-    padding: 5px 10px;
-    font-size: 1.1em;
-    border-radius: 5px;
-}
+    </main>
 
-input[type="Text"],
-input[type="number"],
-input[type="email"],
-select,
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #666;
-    border-radius: 4px;
-    background-color: #555;
-    color: #fff;
-}
+</body>
 
-input[type="radio"],
-input[type="checkbox"]{
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
-
-input[type="submit"]{
-    display: block;
-    width: 50%;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border: none;
-    background-color: #e9573f;
-    color: white;
-    font-size: 1.1em;
-}
+</html>
