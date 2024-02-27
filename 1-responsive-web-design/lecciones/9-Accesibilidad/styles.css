@@ -71,7 +71,7 @@ li > a{
 
 
 main{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 section{
@@ -82,7 +82,7 @@ section{
 
 h1,
 h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma;
 }
 
 h2{
@@ -96,16 +96,15 @@ h2{
 }
 
 .formrow{
-    margin: 10px 0 0 0;
-    padding: 0 0 0 10px;
-    padding-right: 1px;
+    margin-top: 30px;
+    padding: 0 15px;
 }
 
 input{
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.info > label, .info > input{
+.info label, .info input{
     display: inline-block;
 }
 
@@ -117,6 +116,7 @@ input{
 .info label{
     width: 10%;
     min-width: 55px;
+    text-align: right;
 }
 
 .question-block{
@@ -132,12 +132,6 @@ p{
     padding-left: 15px;
     font-size: 20px;
 }
-
-/*
-label{
-    text-align: right;
-}
-*/
 
 p::before{
     content: "Question #";
@@ -164,15 +158,14 @@ button{
 }
 
 footer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     background-color: #2a2a40;
-    color: #d0d0d5;
+    display: flex;
+    justify-content: center;
 }
 
+footer,
 footer a{
-    color: #d0d0d5;
+    color: #dfdfe2;
 }
 
 address{
